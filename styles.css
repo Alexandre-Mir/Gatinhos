@@ -1,0 +1,58 @@
+/* Estilo para o fundo da página */
+body {
+  background-color: #D7D7D9;
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+  background-color: #594839;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-color: #A6A19F;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #A6A19F;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #A6A19F;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #736B66;
+}
+
+/* Estilo para os cabeçalhos das seções */
+h2 {
+  color: #594839;
+}
+
+/* Estilo para o texto do corpo das seções */
+p {
+  color: #736B66;
+}
+
+/* Estilo para o fundo das seções */
+section {
+  background-color: #A6A19F;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para as imagens */
+.img-fluid {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #261C1A;
+  color: #D7D7D9;
+  padding: 10px;
+}

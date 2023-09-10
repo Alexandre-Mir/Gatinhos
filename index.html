@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Site de Gatos</title>
+		<!-- Inclua os arquivos CSS do Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+		<!-- Se você quiser adicionar seu próprio CSS personalizado, inclua-o aqui -->
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- Barra de Navegação -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Gatos Incríveis</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNav"
+				aria-controls="navbarNav"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#sobre">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#fotos">Fotos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contato">Contato</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Seção Sobre -->
+		<section id="sobre" class="container my-5">
+			<h2>Sobre Nós</h2>
+			<p>
+				Seja bem-vindo ao nosso site dedicado aos adoráveis gatos! Aqui você encontrará informações
+				interessantes sobre gatos, além de fotos fofas e dicas para cuidar do seu felino.
+			</p>
+		</section>
+
+		<!-- Seção Fotos -->
+		<section id="fotos" class="container my-5">
+			<h2>Fotos de Gatos</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="cat1.jpg" alt="Gato 1" class="img-fluid" />
+				</div>
+				<div class="col-md-4">
+					<img src="cat2.jpg" alt="Gato 2" class="img-fluid" />
+				</div>
+				<div class="col-md-4">
+					<img src="cat3.jpg" alt="Gato 3" class="img-fluid" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Seção Contato -->
+		<section id="contato" class="container my-5">
+			<h2>Entre em Contato</h2>
+			<p>
+				Tem alguma pergunta ou gostaria de compartilhar suas próprias fotos de gatos? Entre em
+				contato conosco!
+			</p>
+			<form>
+				<div class="form-group">
+					<label for="nome">Nome:</label>
+					<input type="text" class="form-control" id="nome" placeholder="Seu Nome" />
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Seu Email" />
+				</div>
+				<div class="form-group">
+					<label for="mensagem">Mensagem:</label>
+					<textarea
+						class="form-control"
+						id="mensagem"
+						rows="5"
+						placeholder="Sua Mensagem"
+					></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
+		</section>
+
+		<!-- Rodapé -->
+		<footer class="bg-dark text-white text-center py-3">&copy; 2023 Gatos Incríveis</footer>
+
+		<!-- Inclua os arquivos JavaScript do Bootstrap no final do corpo -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>
